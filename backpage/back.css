@@ -1,0 +1,163 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+             font-family: sans-serif;
+            background-color: #f5efef;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+
+        .credit-card {
+            width: 100%;
+            max-width: 530px;
+            aspect-ratio: 1.586;
+            background: linear-gradient(to bottom right, #003A70, #005E9D);
+            border-radius: 0.75rem;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            color: white;
+            overflow: hidden;
+        }
+
+        /* Address */
+        .address {
+            color: #d1d5db;
+            font-size: 11px;
+            padding: 0.5rem 1.25rem 0;
+        }
+
+        /* Magnetic Stripe */
+        .magnetic-stripe {
+            height: 2.5rem;
+            background-color: black;
+            margin-top: 0.5rem;
+        }
+
+        /* Main content area */
+        .content {
+            padding: 1.25rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .top-section {
+            display: flex;
+            gap: 1rem;
+        }
+
+        /* Hologram */
+        .hologram {
+            width: 7rem;
+            height: 4rem;
+            background: linear-gradient(to bottom right, #9ca3af, #e5e7eb, #6b7280);
+            border-radius: 4rem;
+            margin-top: 1rem;
+        }
+
+        .signature-section {
+            flex: 1;
+        }
+
+        .signature-line {
+            width: 100%;
+            height: 2rem;
+            background-color: white;
+            position: relative;
+        }
+
+        .signature-text {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            padding: 0.25rem;
+            font-size: 10px;
+            line-height: 1;
+            font-weight: 600;
+            font-style: italic;
+            letter-spacing: 1px;
+        }
+
+        .signature-text span {
+            transform: rotate(-10deg);
+            margin-right: 0.25rem;
+        }
+
+        .signature-text span:nth-child(odd) {
+            color: #06b6d4;
+        }
+
+        .signature-text span:nth-child(even) {
+            color: #fb923c;
+        }
+
+        .signature-labels {
+            display: flex;
+            justify-content: space-between;
+            font-size: 12px;
+            margin-top: 0.25rem;
+            color: #e5e7eb;
+        }
+
+        .fine-print {
+            font-size: 10px;
+            margin-top: 0.5rem;
+            color: #d1d5db;
+            line-height: 1.25;
+        }
+
+        .bottom-section {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 1rem;
+        }
+
+        .left-side {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .ubl-logo {
+            width: 60px;
+            height: 30px;
+        }
+
+        .tagline {
+            font-size: 11px;
+            color: #d1d5db;
+            font-style: italic;
+            margin-top: -0.5rem;
+        }
+
+        .customer-service {
+            font-weight: 600;
+            /* font-size: 0.875rem; */
+            line-height: 1.25;
+        }
+
+        .customer-service span {
+            font-weight: 600;
+        }
+
+        .logos {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            gap: 1rem;
+            margin-top: 0.6rem;
+            height: 1.5rem;
+        }
+
+        .onelink {
+            display: flex;
+            align-items: center;
+        }
